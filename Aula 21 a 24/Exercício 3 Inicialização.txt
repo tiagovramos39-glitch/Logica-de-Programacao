@@ -1,0 +1,124 @@
+Exercício 3: Inicialização
+
+	O código apresenta como resposta: "Número: " com um ponto após o ":". Ocorreu um erro na construção do código.
+
+	Para consertar, basta atribuir um valor para a variável "numero" na linha "inteiro numero" colocando um "=" após o "numero".
+
+
+
+Exercício 4: Escopo
+
+	O código está incorreto. 
+	
+	Basta colocar a chave na mesma linha do comando "programa" e apagar as chaves desnecessárias do meio. 
+
+	Com isso, o resultado final apresentado será um "20".
+
+
+Exercício 5
+
+programa {
+  funcao inicio () {
+  inteiro n = 10
+  escreva("valor: ", n)
+
+  }
+
+  }
+
+
+Exercício 6
+
+programa {
+  funcao inicio () {
+  cadeia produto = "controle remoto"
+  inteiro codigo = 2
+  real preco = 30
+  logico disponivel = verdadeiro
+
+  escreva("Produto: ", produto, "\n")
+  escreva("Código: ", codigo, "\n")
+  escreva("Preço: ", preco, "\n")
+  escreva("Disponível: ", disponivel, "\n")
+  }
+
+  }
+
+
+Exercício 7
+
+programa {
+  funcao inicio () {
+  real a = 5
+  real b = 3
+  real r = a * b
+
+  escreva("r: ", r)
+
+  }
+
+  }
+
+
+Exercício 8
+
+programa {
+  funcao inicio () {
+  inteiro valor = 1
+  real peso = total
+  cadeia nome = cliente
+  logico v = verdadeiro
+
+  }
+
+  }
+
+
+Exercício 9
+
+programa {
+  funcao inicio () {
+  real quantidadeEstoque
+  quantidadeEstoque = 3
+  escreva("A quantidade em estoque é de ", quantidadeEstoque)
+  
+  }
+
+  }
+
+
+Exercício 10
+
+programa {
+  funcao inicio () {
+  const inteiro LIMITE_MAXIMO = 100
+  inteiro valorAtual = 80
+  escreva("Valor atual: ", valorAtual, "\n")
+  valorAtual = 100
+  
+
+
+  escreva("Limite máximo: ", LIMITE_MAXIMO,"\n")
+  escreva("Valor atual: ", valorAtual,"\n")
+
+  }
+
+  }
+
+Não é possível alterar o valor da constante do código. 
+Adicionando "LIMITE_MAXIMO = 120" na linha seguinte após "valorAtual = 100" por exemplo, causa erro no programa.
+
+
+Exercíco 11
+
+Na primeira linha, não se pode incluir números decimais na categoria "inteiro"
+Na segunda linha, não se usa aspas
+Na terceira linha, para nomear um caractere singular, se usa apenas uma aspa, e não aspas duplas
+
+
+Exercício 12
+
+nomeCompleto
+mediaFinal
+valoTotalCompra
+
