@@ -3,7 +3,7 @@ programa {
     real nota=8, frequencia=70
     logico trabalhoEntregue=verdadeiro
 
-    escreva((nota>=7 e frequencia>=75) ou trabalhoEntregue))
+    escreva((nota>=7)e(frequencia>=75 ou trabalhoEntregue))
 
 
 
