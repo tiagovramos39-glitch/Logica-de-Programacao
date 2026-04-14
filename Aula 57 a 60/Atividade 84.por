@@ -2,6 +2,7 @@ programa {
   funcao verificarNumeros(){
     inteiro Numero
 
+
       enquanto(Numero != 0){
       
       escreva("informe um número: ")
@@ -10,7 +11,7 @@ programa {
       se(Numero > 0){
         escreva("Número postivo\n")     
       }
-      senao{
+      senao se(Numero<0){
         escreva("Número negativo\n") 
         }
      } 
