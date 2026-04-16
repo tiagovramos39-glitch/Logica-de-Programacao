@@ -13,7 +13,11 @@ programa {
       leia(Saque)
 
       GlobalSaldo = GlobalSaldo - Saque
-      escreva("O seu saldo é de: ", GlobalSaldo)
+      se(GlobalSaldo>=0){
+      escreva("O seu saldo é de: ", GlobalSaldo)}
+      senao se(GlobalSaldo<0){
+        escreva("Saldo insuficiente")
+      }
     }
     se(Operacao == "D"){
       escreva("Informe o valor que será depositado: ")
