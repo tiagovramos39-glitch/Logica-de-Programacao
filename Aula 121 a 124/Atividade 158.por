@@ -1,11 +1,15 @@
 programa {
-  inteiro N, S
+  inteiro N
   funcao inteiro somaPares(inteiro N){
-    se(N%2 != 0){
-      retorne N + somaPares(N - 2)
+    se(N <= 0){
+      retorne 0
     }
     senao{
-      retorne N + somaPares(N - 2)
+      se(N % 2 == 0){
+      retorne N + somaPares(N - 1)
+      } senao{
+        retorne somaPares(N - 1)
+      }
     }
   }
   funcao inicio() {

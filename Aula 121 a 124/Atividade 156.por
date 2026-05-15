@@ -5,6 +5,9 @@ programa {
       escreva(Number, "\n")
       contagemRegressiva(Number - 2)
     }
+    senao{
+      escreva("Fim da contagem")
+    }
   }
   funcao inicio() {
     escreva("Digite um número: ")
