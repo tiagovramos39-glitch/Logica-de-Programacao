@@ -10,12 +10,11 @@ public class Moto extends Veiculo{
 		this.descansoAtivo = descansoAtivo;
 	}
 	public void puxarDescanso(){
-		descansoAtivo = true;
+		descansoAtivo = false;
 		System.out.println("Descanso da moto ativado");
 	}
 	public void colocarDescanso() {
-		descansoAtivo = false;
+		descansoAtivo = true;
 		System.out.println("Descanso da moto foi recolhido");
 	}
-	
 }

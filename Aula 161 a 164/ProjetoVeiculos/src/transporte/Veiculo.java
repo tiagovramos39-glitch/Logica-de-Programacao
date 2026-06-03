@@ -24,7 +24,4 @@ public class Veiculo {
 			System.out.println("Ano inválido");
 		}
 	}
-	
-	
-
 }

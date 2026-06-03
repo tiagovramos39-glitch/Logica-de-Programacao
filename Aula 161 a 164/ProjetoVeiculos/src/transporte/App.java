@@ -12,6 +12,7 @@ public class App {
 		System.out.println("Marca: " + carro1.getMarca());
 		System.out.println("Quantidade de portas: " + carro1.getQuantidadePortas());
 		System.out.println("Ano: " + carro1.getAno());
+		System.out.println("");
 		
 		Moto moto1 = new Moto();
 		
@@ -20,10 +21,20 @@ public class App {
 		
 		System.out.println("Marca: " + moto1.getMarca());
 		System.out.println("Ano: " + moto1.getAno());
-		
 		moto1.puxarDescanso();
 		moto1.colocarDescanso();
-
+		System.out.println("");
+		
+		Aviao aviao1 = new Aviao();
+		
+		aviao1.setMarca("Embraer");
+		aviao1.setAno(2025);
+		aviao1.setNumeroAssentos(64);
+		
+		System.out.println("Marca: " + aviao1.getMarca());
+		System.out.println("Ano: " + aviao1.getAno());
+		System.out.println("Numero de assentos: " + aviao1.getNumeroAssentos());
+		aviao1.estaAtivo();
+		aviao1.estaPousado();
 	}
-
 }
